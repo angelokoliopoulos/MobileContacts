@@ -1,10 +1,10 @@
-package model;
+package gr.aueb.mobileapp.model;
 
-public class UserDetails extends AbstractEntity{
+public class UserDetails extends AbstractEntity {
     private String firstname;
     private String lastname;
 
-    public UserDetails(){}
+    public UserDetails() {}
 
     public UserDetails(long id, String firstname, String lastname) {
         setId(id);

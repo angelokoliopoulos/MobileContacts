@@ -1,11 +1,17 @@
-package dto;
+package gr.aueb.mobileapp.dto;
 
 public class UserDetailsDTO {
     private long id;
     private String firstname;
     private String lastname;
 
-    public UserDetailsDTO(){};
+    public UserDetailsDTO() {}
+
+    public UserDetailsDTO(long id, String firstname, String lastname) {
+        this.id = id;
+        this.firstname = firstname;
+        this.lastname = lastname;
+    }
 
     public long getId() {
         return id;

@@ -1,13 +1,12 @@
-package model;
+package gr.aueb.mobileapp.model;
 
 public class MobileContact extends AbstractEntity {
-
     private UserDetails userDetails;
     private String phoneNumber;
 
-    public MobileContact(){};
+    public MobileContact() {}
 
-    public MobileContact(long id,UserDetails userDetails, String phoneNumber) {
+    public MobileContact(long id, UserDetails userDetails, String phoneNumber) {
         setId(id);
         this.userDetails = userDetails;
         this.phoneNumber = phoneNumber;
@@ -28,6 +27,8 @@ public class MobileContact extends AbstractEntity {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+
 
     @Override
     public boolean equals(Object o) {

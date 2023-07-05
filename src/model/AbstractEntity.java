@@ -1,6 +1,6 @@
-package model;
+package gr.aueb.mobileapp.model;
 
-public class AbstractEntity implements  IdentifiableEntity{
+public abstract class AbstractEntity implements IdentifiableEntity {
     private long id;
 
     @Override
@@ -8,7 +8,7 @@ public class AbstractEntity implements  IdentifiableEntity{
         return id;
     }
 
-    public void setId(long id){
+    public void setId(long id) {
         this.id = id;
     }
 }

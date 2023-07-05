@@ -1,10 +1,12 @@
-package model;
-@FunctionalInterface
+package gr.aueb.mobileapp.model;
 
+@FunctionalInterface
 public interface IdentifiableEntity {
+
     /**
+     * Returns the id of the entity.
      *
-     * @return the entity id 
+     * @return the entity id.
      */
     long getId();
 }

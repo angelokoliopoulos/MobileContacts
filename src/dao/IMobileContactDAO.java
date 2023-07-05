@@ -1,13 +1,10 @@
-package dao;
+package gr.aueb.mobileapp.dao;
 
-import model.MobileContact;
+import gr.aueb.mobileapp.model.MobileContact;
 
 import java.util.List;
 
 public interface IMobileContactDAO {
-    //Main methods
-
-
     /**
      *
      * @param mobileContact
@@ -40,8 +37,6 @@ public interface IMobileContactDAO {
      * @return
      */
     List<MobileContact> getAll();
-
-//secondary methods
 
     /**
      *
